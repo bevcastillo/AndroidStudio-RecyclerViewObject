@@ -1,21 +1,25 @@
 package com.example.recyclerviewobject.Objects;
 
+import android.net.Uri;
+
 public class Person {
 
-    private int mImage;
+    private Uri mImage;
     private String mName, mAge;
 
-    public Person(int mImage, String mName, String mAge) {
+    //constructor
+    public Person(Uri mImage, String mName, String mAge) {
         this.mImage = mImage;
         this.mName = mName;
         this.mAge = mAge;
     }
 
-    public int getmImage() {
+    //getters and setters
+    public Uri getmImage() {
         return mImage;
     }
 
-    public void setmImage(int mImage) {
+    public void setmImage(Uri mImage) {
         this.mImage = mImage;
     }
 
